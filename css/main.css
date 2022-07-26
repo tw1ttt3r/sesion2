@@ -1,33 +1,9 @@
-/* 
-  // # selector de id
-  // . selector de clase
-  // nombre de la etiqueta a modificar
-  // * selector universal
-*/
-
 * {
-  /* reseteo de modelo de caja */
   padding: 0;
   margin: 0;
   border: 0;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-body {
-  margin: 4px;
-}
-
-#conWidth {
-  width: 20px;
-  display: inline-block;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.algunos {
-  background-color: beige;
-  width: 40px;
-}
-
-span {
-  color: red;
+header {
+  text-align: center;
 }
