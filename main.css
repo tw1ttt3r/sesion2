@@ -1,8 +1,3 @@
-/*          // # selector de id
-            // . selector de clase
-            // nombre de la etiqueta a modificar 
-*/
-      
 *{
     padding: 0;
     margin: 0;
@@ -13,23 +8,28 @@ body{
     margin: 4px
 }
 
-#conWidth {
+h1{
+    text-align: center;
+    color:brown;
+}
+div{
+    display: inline-block;
+    padding-top: 50px;
+    margin-right: 100px;
+}
+.info, .imagen{
+    vertical-align: middle;
+}
+#conWidth{
     width: 20px;
     display: inline-block;
-    font-family:'Times New Roman', Times, serif;
 }
 
-.algunos{
-    background-color: beige;
-}
-
-span {
-    color:red;
-}
-
-header{
-    text-align: center;
-    font-size: xx-large;
+img{
+    width: 180px;
+    margin-left: 500px;
+    margin-top: 0;
+    display: block;
 }
 
 p {
@@ -40,18 +40,5 @@ section{
     padding-top: 10px;
     display: inline-block;
     margin-left: 100px;
-}
-
-div{
-    display: inline-block;
-    padding-top: 50px;
-    margin-right: 100px;
-}
-
-img{
-    width: 180px;
-    margin-left: 500px;
-    margin-top: 0;
-    display: block;
 }
 
